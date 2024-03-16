@@ -1,11 +1,8 @@
-//
-// Created by Stanislav on 02.03.2024.
-//
-
 #ifndef UNTITLED35_DECK_H
 #define UNTITLED35_DECK_H
 #include "Card.h"
 
+#define Deck() deck_init()
 typedef struct Deck{
    Card* _deck[36];
    int _index;

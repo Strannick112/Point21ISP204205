@@ -10,4 +10,9 @@ add_executable(untitled35 main.c
         game/Mast.h
         game/Mast.c
         game/Deck.h
-        game/Deck.c)
+        game/Deck.c
+        game/Hand.h
+        game/Hand.c
+        game/Player.h
+        game/Player.c
+        game/Game.c)
